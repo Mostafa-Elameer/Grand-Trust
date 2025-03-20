@@ -9,7 +9,6 @@
   <body>
     <!-- component -->
 
- 
     <div class="fixed w-full z-30 mt-2">
       <nav class="relative px-4 py-0 bg-nav">
         <div class="w-10/12 mx-auto flex justify-between items-center py-2">
@@ -20,8 +19,7 @@
             <img width="50px" src="../assets/img/ICON-2.svg" alt="icon" />
 
             <span class="text-[#9b53d2] uppercase">rust</span>
-                   <!-- قائمة اختيار اللغة -->
-   
+            <!-- قائمة اختيار اللغة -->
           </a>
           <div class="lg:hidden">
             <button class="navbar-burger flex items-center text-white p-3">
@@ -82,17 +80,13 @@
                 >Contact</a
               >
             </li>
-            <li class="text-white ">
+            <li class="text-white">
               <!-- <label for="languageSwitcher"></label> -->
-              <select class="bg-black"  id="languageSwitcher">
-                  <option value="en">English</option>
-                  <option value="ar">العربية</option>
+              <select class="bg-black" id="languageSwitcher">
+                <option value="en">English</option>
+                <option value="ar">العربية</option>
               </select>
-              
             </li>
-
-
-
           </ul>
         </div>
       </nav>
@@ -126,6 +120,7 @@
                 <a
                   class="block p-4 text-white uppercase font-medium hover:bg-blue-50 hover:text-black rounded"
                   href="#home"
+                  data-translate="home"
                   >Home</a
                 >
               </li>
@@ -133,6 +128,7 @@
                 <a
                   class="block p-4 text-white uppercase font-medium hover:bg-blue-50 hover:text-black rounded"
                   href="#about"
+                  data-translate="about"
                   >About Us</a
                 >
               </li>
@@ -140,13 +136,15 @@
                 <a
                   class="block p-4 text-white uppercase font-medium hover:bg-blue-50 hover:text-black rounded"
                   href="#Services"
+                  data-translate="Services"
                   >Services</a
                 >
               </li>
               <li class="mb-1">
                 <a
                   class="block p-4 text-white uppercase font-medium hover:bg-blue-50 hover:text-black rounded"
-                  href="#"
+                  href="#whyus"
+                  data-translate="Whyus"
                   >Why us</a
                 >
               </li>
@@ -154,8 +152,17 @@
                 <a
                   class="block p-4 text-white uppercase font-medium hover:bg-blue-50 hover:text-black rounded"
                   href="#"
+                  data-translate="contact"
                   >Contact</a
                 >
+              </li>
+
+              <li class="text-white">
+                <!-- <label for="languageSwitcher"></label> -->
+                <select class="bg-black" id="languageSwitcher">
+                  <option value="en">English</option>
+                  <option value="ar">العربية</option>
+                </select>
               </li>
             </ul>
           </div>
@@ -178,28 +185,25 @@
       </a>
     </div>
 
+    <!-- =========================================================================== -->
+
     <header id="home" class="home flex items-center justify-center">
       <div class="container px-4 px-lg-5">
         <div class="d-flex justify-content-center">
           <div class="text-center">
-            <h1 class="mx-auto my-0 text-uppercase hidden-element">GRAND TRUST</h1>
-            
-         
-            <h2 class="text-white mx-auto mt-2 mb-5 ">
+            <h1 class="mx-auto my-0 text-uppercase hidden-element">
+              GRAND TRUST
+            </h1>
+
+            <h2 class="text-white mx-auto mt-2 mb-5">
               You Trust, <span id="text-"></span>
             </h2>
-
-
-
-       
           </div>
         </div>
       </div>
     </header>
 
-
-
-
+    <!-- =========================================================================== -->
 
     <div id="about" class="bg-black">
       <div class="card">
@@ -226,6 +230,7 @@
       </div>
     </div>
 
+    <!-- =========================================================================== -->
 
 
     <div id="Services" class="py-28 bg-black text-white z-50">
@@ -233,15 +238,11 @@
         <div class="bg-[#743ea447] md:ps-16">
           <div class="flex justify-center md:justify-start items-center">
             <h2
-              class="   hidden-element absolute text-4xl md:text-8xl font-bold text-[#ffffffb5 md:ms-8"
+              class="hidden-element absolute text-4xl md:text-8xl font-bold text-[#ffffffb5 md:ms-8"
             >
               SERVICES
             </h2>
-            <h3
-              class="hidden-element text-4xl md:text-8xl text-[#8b6fa770] font-bold mb-4 md:mb-8"
-            >
-              SERVICES
-            </h3>
+        
           </div>
         </div>
 
@@ -264,22 +265,14 @@
         </div>
       </div>
 
-      <!-- test  swiper   -->
+ 
 
       <div class="w-11/12 mx-auto">
-        <swiper-container
-          loop="true"
-          navigate="true"
-          lides-per-view="3"
-          autoplayHoverPause="true"
-          autoplay="true"
-          autoplayTimeout="true"
-        >
-          <swiper-slide>
+    
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <!-- Card -->
-              <div class="card hidden-element relative overflow-hidden">
-                <figure class="card  position-relative overflow-hidden">
+              <div class=" hidden-element relative overflow-hidden">
+                <figure class=" position-relative overflow-hidden">
                   <img
                     class="img-fluid d-block"
                     src="../../../assets/img/Design.png"
@@ -304,8 +297,8 @@
               </div>
               <!-- End Card -->
               <!-- Card -->
-              <div class="card hidden-element  relative overflow-hidden">
-                <figure class="card position-relative overflow-hidden">
+              <div class="hidden-element relative overflow-hidden">
+                <figure class="position-relative overflow-hidden">
                   <img
                     class="img-fluid d-block"
                     src="../../../assets/img/socialmedia1.png"
@@ -330,8 +323,8 @@
               </div>
               <!-- End Card -->
               <!-- Card -->
-              <div class="card hidden-element   relative overflow-hidden">
-                <figure class="card position-relative overflow-hidden">
+              <div class=" hidden-element relative overflow-hidden">
+                <figure class=" position-relative overflow-hidden">
                   <img
                     class="img-fluid d-block"
                     src="../../../assets/img/socialmedia.png"
@@ -344,7 +337,7 @@
                       creativity
                     </h5>
                     <div class="w-100 text-start text-1xl pt-8 p-2">
-                      <p class="    ">Lorem ipsum dolor sit amet.</p>
+                      <p class="">Lorem ipsum dolor sit amet.</p>
                       <p class="">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Error architecto cum numquam reiciendis inventore
@@ -356,24 +349,15 @@
               </div>
               <!-- End Card -->
             </div>
-          </swiper-slide>
-        </swiper-container>
+     
       </div>
 
       <div class="w-11/12 mx-auto">
-        <swiper-container
-          loop="true"
-          navigate="true"
-          lides-per-view="3"
-          autoplayHoverPause="true"
-          autoplay="true"
-          autoplayTimeout="true"
-        >
-          <swiper-slide>
+   
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <!-- Card -->
-              <div class="card hidden-element  relative overflow-hidden">
-                <figure class="card position-relative overflow-hidden">
+              <div class=" hidden-element relative overflow-hidden">
+                <figure class=" position-relative overflow-hidden">
                   <img
                     class="img-fluid d-block"
                     src="../assets/img/mobileapp.png"
@@ -399,8 +383,8 @@
               <!-- End Card -->
 
               <!-- Card -->
-              <div class="card hidden-element  relative overflow-hidden">
-                <figure class="card position-relative overflow-hidden">
+              <div class=" hidden-element relative overflow-hidden">
+                <figure class=" position-relative overflow-hidden">
                   <img
                     class="img-fluid d-block"
                     src="../assets/img/frontend.png"
@@ -426,8 +410,8 @@
               <!-- End Card -->
 
               <!-- Card -->
-              <div class="card hidden-element  relative overflow-hidden">
-                <figure class="card position-relative overflow-hidden">
+              <div class=" hidden-element relative overflow-hidden">
+                <figure class=" position-relative overflow-hidden">
                   <img
                     class="img-fluid d-block"
                     src="../assets/img/Uxui.png"
@@ -452,105 +436,128 @@
               </div>
               <!-- End Card -->
             </div>
-          </swiper-slide>
-        </swiper-container>
+ 
       </div>
     </div>
 
- <!-- =========================================================================== -->
- 
- <section id="whyus">
- 
 
-  <div class="bg-black">
 
-    
-  <div class="bg-black">
-    <div class="container ">
 
-      <div class="bg-[#743ea447] md:ps-16">
-        <div class="flex justify-center md:justify-end items-center">
-          <h2
-            class="absolute text-4xl md:text-8xl font-bold text-[#ffffff] md:me-8"
-          >
-            Why us?
-          </h2>
-          <h3
-            class="text-4xl md:text-8xl text-[#8b6fa770] font-bold mb-4 md:mb-8"
-          >
-            Why us?
-          </h3>
+
+
+
+
+
+
+
+
+
+
+    <!-- =========================================================================== -->
+
+    <section id="whyus">
+      <div class="bg-black">
+        <div class="bg-black">
+          <div class="container">
+            <div class="bg-[#743ea447] md:ps-16">
+              <div class="flex justify-center md:justify-end items-center">
+                <h2
+                  class="absolute text-4xl md:text-8xl font-bold text-[#ffffff] md:me-8"
+                >
+                  Why us?
+                </h2>
+                <h3
+                  class="text-4xl md:text-8xl text-[#8b6fa770] font-bold mb-4 md:mb-8"
+                >
+                  Why us?
+                </h3>
+              </div>
+            </div>
+
+            <div class="text-center container py-2 text-white">
+              <h3 class="text-3xl py-2">
+                what <span class="text-[#943edf]">we do !</span>
+              </h3>
+
+              <p class="text-[#fff] lg:text-2xl pb-2">
+                Learn about the services we provide and excel at
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto w-10/12 pb-10">
+          <div class="relative border-l-4 border-[#7b46a8]">
+            <!-- Step 1 -->
+            <div class="mb-8 ml-6 flex items-center">
+              <div
+                class="w-4 h-4 bg-gray-200 rounded-full absolute -left-2"
+              ></div>
+              <div class="bg-[#7832b580] p-6 rounded-lg shadow-md w-full">
+                <h3 class="text-lg text-[#e4c5e2] font-bold">
+                  حدد احتياج وضع التفاصيل
+                </h3>
+                <p class="text-gray-100">
+                  نحدد احتياجك من المشروع ونفهم متطلباتك وتفاصيل المشروع بشكل
+                  دقيق.
+                </p>
+              </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="mb-8 ml-6 flex items-center">
+              <div
+                class="w-4 h-4 bg-gray-200 rounded-full absolute -left-2"
+              ></div>
+              <div class="bg-gray-800 p-6 rounded-lg shadow-md w-full">
+                <h3 class="text-lg text-[#e4c5e2] font-bold">
+                  بحث ودراسة المشروع
+                </h3>
+                <p class="text-gray-100">
+                  نقوم بإجراء بحث ودراسة معمقة لفهم نطاق المشروع والسوق
+                  المستهدف.
+                </p>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="mb-8 ml-6 flex items-center">
+              <div
+                class="w-4 h-4 bg-gray-200 rounded-full absolute -left-2"
+              ></div>
+              <div class="bg-[#7832b580] p-6 rounded-lg shadow-md w-full">
+                <h3 class="text-lg text-[#e4c5e2] font-bold">
+                  البدء في تخطيط وتحديد المهام
+                </h3>
+                <p class="text-gray-100">
+                  نقوم بتحديد الأهداف ووضع خطة عمل مفصلة تشمل جميع المهام
+                  والجداول الزمنية.
+                </p>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="ml-6 flex items-center">
+              <div
+                class="w-4 h-4 bg-gray-200 rounded-full absolute -left-2"
+              ></div>
+              <div class="bg-gray-800 p-6 rounded-lg shadow-md w-full">
+                <h3 class="text-lg text-[#e4c5e2] font-bold">
+                  البدء في تخطيط وتحديد المهام
+                </h3>
+                <p class="text-gray-100">
+                  نقوم بتحديد الأهداف ووضع خطة عمل مفصلة تشمل جميع المهام
+                  والجداول الزمنية.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-  
-      <div class="text-center container py-2 text-white">
-        <h3 class="text-3xl py-2">
-          what <span class="text-[#943edf]">we do !</span>
-        </h3>
-  
-        <p class="text-[#fff] lg:text-2xl pb-2 ">
-          Learn about the services
-          we provide and excel at
-        </p>
-      </div>
-  
-    </div>
-  
-  
-  </div>
+    </section>
 
+    <!-- =========================================================================== -->
 
-  <div class=" mx-auto w-10/12  pb-10 ">
-  
-    <div class="relative border-l-4 border-[#7b46a8]">
-        <!-- Step 1 -->
-        <div class="mb-8 ml-6 flex items-center">
-            <div class="w-4 h-4 bg-gray-200 rounded-full absolute -left-2"></div>
-            <div class="bg-[#7832b580] p-6 rounded-lg shadow-md w-full">
-                <h3 class="text-lg text-[#e4c5e2] font-bold">حدد احتياج وضع التفاصيل</h3>
-                <p class="text-gray-100">نحدد احتياجك من المشروع ونفهم متطلباتك وتفاصيل المشروع بشكل دقيق.</p>
-            </div>
-        </div>
-  
-        <!-- Step 2 -->
-        <div class="mb-8 ml-6 flex items-center">
-            <div class="w-4 h-4 bg-gray-200 rounded-full absolute -left-2"></div>
-            <div class="bg-gray-800 p-6 rounded-lg shadow-md w-full">
-                <h3 class="text-lg text-[#e4c5e2] font-bold">بحث ودراسة المشروع</h3>
-                <p class="text-gray-100">نقوم بإجراء بحث ودراسة معمقة لفهم نطاق المشروع والسوق المستهدف.</p>
-            </div>
-        </div>
-  
-        <!-- Step 3 -->
-        <div class="mb-8 ml-6 flex items-center">
-            <div class="w-4 h-4 bg-gray-200 rounded-full absolute -left-2"></div>
-            <div class="bg-[#7832b580] p-6 rounded-lg shadow-md w-full">
-                <h3 class="text-lg text-[#e4c5e2] font-bold">البدء في تخطيط وتحديد المهام</h3>
-                <p class="text-gray-100">نقوم بتحديد الأهداف ووضع خطة عمل مفصلة تشمل جميع المهام والجداول الزمنية.</p>
-            </div>
-        </div>
-  
-  
-           <!-- Step 3 -->
-           <div class="ml-6 flex items-center">
-            <div class="w-4 h-4 bg-gray-200 rounded-full absolute -left-2"></div>
-            <div class="bg-gray-800 p-6 rounded-lg shadow-md w-full">
-                <h3 class="text-lg text-[#e4c5e2] font-bold">البدء في تخطيط وتحديد المهام</h3>
-                <p class="text-gray-100">نقوم بتحديد الأهداف ووضع خطة عمل مفصلة تشمل جميع المهام والجداول الزمنية.</p>
-            </div>
-        </div>
-    </div>
-  </div>
-  </div>
-
-</section>
-
-
-
-
-
-     <!-- =========================================================================== -->
- 
     <div class="our-clints bg-black">
       <div class="container">
         <div class="bg-[#743ea447] md:ps-16">
@@ -587,127 +594,179 @@
     <!-- =========================================================================== -->
     <!-- our team -->
     <div class="bg-black py-0 sm:py-32">
-    
-      <div class="w-10/12 mx-auto ">
-
+      <div class="w-10/12 mx-auto">
         <div class="container pb-1">
-        
-  
           <div class="text-center container py-2 text-white">
             <h3 class="text-3xl py-2">
               Where are our <span class="text-[#943edf]"> customers from?</span>
             </h3>
-  
+
             <p class="text-[#fff] text-2xl">Clients from all over the world</p>
           </div>
         </div>
-  
+
         <div class="space-y-2">
-            <!-- Accordion Item 1 -->
-            <div class="border rounded-lg overflow-hidden">
-                <button class="w-full text-left p-4 bg-[#a45ee0bf] text-white font-stretch-95% cursor-pointer focus:outline-none accordion-header">
-                  What services does Grand Trust provide ?              
-                  </button>
-                <div class="accordion-body opacity-0 max-h-0 overflow-hidden transition-all duration-300 ease-in-out p-4 bg-[#fff]">
-                    <strong>At GRAND TRUST</strong> we specialize in creating innovative software solutions tailored to our clients’ needs. With a strong commitment to quality and customer satisfaction, we provide Digital Marketing services to help achieve their goals.
-                </div>
+          <!-- Accordion Item 1 -->
+          <div class="border rounded-lg overflow-hidden">
+            <button
+              class="w-full text-left p-4 bg-[#a45ee0bf] text-white font-stretch-95% cursor-pointer focus:outline-none accordion-header"
+            >
+              What services does Grand Trust provide ?
+            </button>
+            <div
+              class="accordion-body opacity-0 max-h-0 overflow-hidden transition-all duration-300 ease-in-out p-4 bg-[#fff]"
+            >
+              <strong>At GRAND TRUST</strong> we specialize in creating
+              innovative software solutions tailored to our clients’ needs. With
+              a strong commitment to quality and customer satisfaction, we
+              provide Digital Marketing services to help achieve their goals.
             </div>
-  
+          </div>
 
-                       <!-- Accordion Item 3 -->
-                       <div class="border rounded-lg overflow-hidden">
-                        <button class="w-full text-left p-4 bg-[#a45ee0bf] text-white font-stretch-95% cursor-pointer  focus:outline-none accordion-header">
-                          Can I customize your core services ? 
-                        </button>
-                        <div class="accordion-body opacity-0 max-h-0 overflow-hidden transition-all duration-300 ease-in-out p-4 bg-[#fff]">
-                            <strong>Absolutely.</strong> We can customize the most suitable and best plan for you and your business. You just take the step with us and we will move at rocket speed.
-                        </div>
-                    </div>
-
-            <!-- Accordion Item 2 -->
-            <div class="border rounded-lg overflow-hidden">
-                <button class="w-full text-left p-4 bg-[#a45ee0bf] text-white font-stretch-95% cursor-pointer  focus:outline-none accordion-header">
-                  How can I start a new project ?
-                </button>
-                <div class="accordion-body opacity-0 max-h-0 overflow-hidden transition-all duration-300 ease-in-out p-4 bg-[#fff]">
-                    <strong>You can contact us</strong> for a free consultation .
-                </div>
+          <!-- Accordion Item 3 -->
+          <div class="border rounded-lg overflow-hidden">
+            <button
+              class="w-full text-left p-4 bg-[#a45ee0bf] text-white font-stretch-95% cursor-pointer focus:outline-none accordion-header"
+            >
+              Can I customize your core services ?
+            </button>
+            <div
+              class="accordion-body opacity-0 max-h-0 overflow-hidden transition-all duration-300 ease-in-out p-4 bg-[#fff]"
+            >
+              <strong>Absolutely.</strong> We can customize the most suitable
+              and best plan for you and your business. You just take the step
+              with us and we will move at rocket speed.
             </div>
-  
-            <!-- Accordion Item 3 -->
-            <div class="border rounded-lg overflow-hidden">
-                <button class="w-full text-left p-4 bg-[#a45ee0bf] text-white font-stretch-95% cursor-pointer  focus:outline-none accordion-header">
-                  Do you provide technical support after launch?
-                </button>
-                <div class="accordion-body opacity-0 max-h-0 overflow-hidden transition-all duration-300 ease-in-out p-4 bg-[#fff]">
-                    <strong>Absolutely.</strong> We provide ongoing technical support to ensure your project runs smoothly. We are your partners in success.
-                </div>
-            </div>
+          </div>
 
-   
+          <!-- Accordion Item 2 -->
+          <div class="border rounded-lg overflow-hidden">
+            <button
+              class="w-full text-left p-4 bg-[#a45ee0bf] text-white font-stretch-95% cursor-pointer focus:outline-none accordion-header"
+            >
+              How can I start a new project ?
+            </button>
+            <div
+              class="accordion-body opacity-0 max-h-0 overflow-hidden transition-all duration-300 ease-in-out p-4 bg-[#fff]"
+            >
+              <strong>You can contact us</strong> for a free consultation .
+            </div>
+          </div>
+
+          <!-- Accordion Item 3 -->
+          <div class="border rounded-lg overflow-hidden">
+            <button
+              class="w-full text-left p-4 bg-[#a45ee0bf] text-white font-stretch-95% cursor-pointer focus:outline-none accordion-header"
+            >
+              Do you provide technical support after launch?
+            </button>
+            <div
+              class="accordion-body opacity-0 max-h-0 overflow-hidden transition-all duration-300 ease-in-out p-4 bg-[#fff]"
+            >
+              <strong>Absolutely.</strong> We provide ongoing technical support
+              to ensure your project runs smoothly. We are your partners in
+              success.
+            </div>
+          </div>
         </div>
-    </div>
-    
-    
-      <div class="mt-16 mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
+      </div>
+
+      <div
+        class="mt-16 mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3"
+      >
         <div class="max-w-xl">
-          <h2 class="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">Meet our team</h2>
-          <p class="mt-6 text-lg/8 text-gray-600">We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</p>
+          <h2
+            class="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl"
+          >
+            Meet our team
+          </h2>
+          <p class="mt-6 text-lg/8 text-gray-600">
+            We’re a dynamic group of individuals who are passionate about what
+            we do and dedicated to delivering the best results for our clients.
+          </p>
         </div>
-        <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+        <ul
+          role="list"
+          class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
+        >
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="size-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              <img
+                class="size-16 rounded-full"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
               <div>
-                <h3 class="text-base/7 font-semibold tracking-tight text-white">Mostafa El-Ameer</h3>
-                <p class="text-sm/6 font-semibold text-[#943edf]">Co-Founder / CEO</p>
-              </div>
-            </div>
-          </li>
-
-
-          <li>
-            <div class="flex items-center gap-x-6">
-              <img class="size-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-              <div>
-                <h3 class="text-base/7 font-semibold tracking-tight text-white">Account Manegaer</h3>
-                <p class="text-sm/6 font-semibold text-[#943edf]">Account Manegaer</p>
-              </div>
-            </div>
-          </li>
-
-
-          <li>
-            <div class="flex items-center gap-x-6">
-              <img class="size-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-              <div>
-                <h3 class="text-base/7 font-semibold tracking-tight text-white">Leslie Alexander</h3>
-                <p class="text-sm/6 font-semibold text-[#943edf]">Co-Founder / CEO</p>
+                <h3 class="text-base/7 font-semibold tracking-tight text-white">
+                  Mostafa El-Ameer
+                </h3>
+                <p class="text-sm/6 font-semibold text-[#943edf]">
+                  Co-Founder / CEO
+                </p>
               </div>
             </div>
           </li>
 
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="size-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              <img
+                class="size-16 rounded-full"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
               <div>
-                <h3 class="text-base/7 font-semibold tracking-tight text-white">Leslie Alexander</h3>
-                <p class="text-sm/6 font-semibold text-[#943edf]">Co-Founder / CEO</p>
+                <h3 class="text-base/7 font-semibold tracking-tight text-white">
+                  Account Manegaer
+                </h3>
+                <p class="text-sm/6 font-semibold text-[#943edf]">
+                  Account Manegaer
+                </p>
               </div>
             </div>
           </li>
-    
-    
+
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img
+                class="size-16 rounded-full"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
+              <div>
+                <h3 class="text-base/7 font-semibold tracking-tight text-white">
+                  Leslie Alexander
+                </h3>
+                <p class="text-sm/6 font-semibold text-[#943edf]">
+                  Co-Founder / CEO
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img
+                class="size-16 rounded-full"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
+              <div>
+                <h3 class="text-base/7 font-semibold tracking-tight text-white">
+                  Leslie Alexander
+                </h3>
+                <p class="text-sm/6 font-semibold text-[#943edf]">
+                  Co-Founder / CEO
+                </p>
+              </div>
+            </div>
+          </li>
+
           <!-- More people... -->
         </ul>
       </div>
-
-
-   
     </div>
-    
 
-
+    <!-- =========================================================================== -->
 
     <footer class="bg-white dark:bg-gray-900">
       <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-8 sm:px-6 lg:px-8">
