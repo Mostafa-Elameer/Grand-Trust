@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 566.93 240.68">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 121.92px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #8c38cc;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: Poppins-Bold, Poppins;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-2 {
+        font-family: NotoSans-ExtraBoldItalic, 'Noto Sans';
+        font-size: 31.69px;
+        font-style: italic;
+      }
+
+      .cls-3 {
+        font-size: 111.4px;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #8c38cc;
+        stroke-miterlimit: 10;
+        stroke-width: 10.04px;
+      }
+    </style>
+  </defs>
+  <g>
+    <text></text>
+    <text class="cls-1" transform="translate(234.17 190.41) scale(.95 1)"><tspan x="0" y="0">RUST</tspan></text>
+  </g>
+  <text class="cls-2" transform="translate(240.65 225.75)"><tspan class="cls-5" x="0" y="0">Y</tspan><tspan class="cls-4" x="16.86" y="0">ou trust we start </tspan></text>
+  <text class="cls-3" transform="translate(210.81 89.87)"><tspan x="0" y="0">RAND</tspan></text>
+  <g>
+    <path class="cls-6" d="M160.47,212.08v-69.52h-44.84v-32.67h113.92v32.6h-29.52s0,11.33,0,11.33M162.99,208.47c-14.77,5.43-30.78,8.7-45.91,8.7-20.28,0-37.96-4.25-53.05-12.77-15.08-8.51-26.41-20.68-34-36.51-7.59-15.83-11.38-33.05-11.38-51.66,0-20.19,4.23-38.14,12.7-53.84,8.47-15.7,20.86-27.73,37.17-36.11,12.43-6.44,27.91-9.66,46.43-9.66,24.08,0,42.88,5.05,56.42,15.15,13.54,10.1,22.24,24.05,26.13,41.87l-38.89,7.28c-2.73-9.52-7.87-17.04-15.41-22.55-7.54-5.51-16.95-8.27-28.24-8.27-17.11,0-30.71,5.42-40.81,16.27-10.1,10.85-15.15,26.94-15.15,48.28,0,23.02,5.11,40.28,15.34,51.79,10.23,11.51,23.63,17.26,40.21,17.26,8.2,0,16.42-1.61,24.67-4.83"/>
+    <line class="cls-6" x1="200.02" y1="159.36" x2="200.02" y2="168.4"/>
+    <line class="cls-6" x1="200.02" y1="174.44" x2="200.02" y2="183.48"/>
+    <line class="cls-6" x1="200.02" y1="189.51" x2="200.02" y2="198.55"/>
+    <line class="cls-6" x1="200.02" y1="204.59" x2="200.02" y2="213.63"/>
+    <line class="cls-6" x1="200.02" y1="219.66" x2="200.02" y2="228.7"/>
+    <line class="cls-6" x1="186.56" y1="210.63" x2="186.56" y2="219.66"/>
+    <line class="cls-6" x1="186.56" y1="195.55" x2="186.56" y2="204.59"/>
+    <line class="cls-6" x1="186.56" y1="180.48" x2="186.56" y2="189.51"/>
+    <line class="cls-6" x1="186.56" y1="165.4" x2="186.56" y2="174.44"/>
+    <line class="cls-6" x1="174.04" y1="171.44" x2="174.04" y2="180.48"/>
+    <line class="cls-6" x1="174.04" y1="187.49" x2="174.04" y2="196.52"/>
+    <line class="cls-6" x1="174.04" y1="203.05" x2="174.04" y2="212.08"/>
+  </g>
+</svg>
