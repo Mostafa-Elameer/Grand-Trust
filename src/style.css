@@ -183,8 +183,8 @@ body{
     position: absolute;
     background-color:#7832b5 ;
     top: 88%;
-    left: 4%;
-    right: 4%;
+    left: 0%;
+    right: 0%;
     height: 96%;
     opacity: 1;
     transition: all 0.4s ease-in-out;
